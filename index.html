@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio de M.R.F.</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/logos/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/logos/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/logos/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="./assets/images/logos/favicon_io/site.webmanifest">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body class="scroll">
+
+  <header class="encabezado">
+    <nav class="navegacion">
+      <a class="navegacion__enlace" href="#presentacion">
+        <h2 class="navegacion__titulo">Informatorio 2024</h2>
+      </a>
+      <ul class="enlaces">
+        <li class="enlaces__item">
+          <a class="enlaces__enlace" href="#presentacion">Inicio</a>
+        </li>
+        <li class="enlaces__item">
+          <a class="enlaces__enlace" href="#sobre-mi">Un poco sobre mi</a>
+        </li>
+        <li class="enlaces__item">
+          <a class="enlaces__enlace" href="#proyectos">Mis Conocimientos</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- explicacion: A continuacion incluiremos la etiqueta main -->
+  <main class="principal">
+    <!-- explicacion: dentro de esta etiqueta agregaremos las diferentes secciones de nuestra página -->
+
+    <!-- explicacion: Comenzaremos incluyendo una vista de presentacion -->
+    <section class="presentacion" id="presentacion">
+      <div class="presentacion__contenedor_info">
+        <h1 class="presentacion__titulo">Soy Docente</h1>
+        <p class="presentacion__parrafo">
+          Soy Argentino, soy padre, soy divorciado, soy docente... y poseo dos titulos de nivel terciario:
+          <br><b>1-Técnico Superior en Gestion Organizacional</b> y <b>2-Maestro de Formación Profesional</b>
+          y ejerzo hace casi 19 años en la <abbr title="Escuela de Formación Profesional Nº7"><b>E.F.P.
+              Nº7</b></abbr> de la ciudad de Resistencia, Chaco. <br> <br>Allí Comencé dictando cursos de Informática
+          para el
+          Sistema Operativo Windows XP y la suite Office 97 y otros softwares de la época. Algunos años despues,
+          incursioné en una materia transversal a varios oficios denominada Gestión Profesional (abandonando
+          momentaneamente el dictado de clases de soft). <br><br>Y luego de algunos años, y de algunas
+          auto-capacitaciones y experiencias propias, me volqué a la enseñanza de la oferta denominada "Reparador de PC
+          y Periféricos."
+        </p>
+        <br>
+        <div class="presentacion__contenedor_botones">
+          <a href="#sobre-mi" class="boton" role="button">Sobre mí</a>
+          <a href="./assets/docs/cv.pdf" target="_blank" class="boton boton_oscuro" role="button">Descargar CV</a>
+        </div>
+      </div>
+    </section>
+    <!-- repaso de las partes de la seccion -->
+
+    <!-- explicacion: Ahora agregaremos una seccion donde nos explayaremos 
+        sobre nuestra historia personal, para ello escribiremos lo siguiente -->
+    <article class="articulo sobre_mi" id="sobre-mi">
+      <h2 class="articulo__titulo">Un poco sobre mi</h2>
+      <div class="articulo__contenedor_descripciones">
+        <section class="seccion_descripcion">
+          <div class="seccion_descripcion__porta_retrato">
+            <img class="seccion_descripcion__imagen" src="./assets/images/profile/trabajo2.jpg"
+              alt="foto trabajando en la oficina" title="trabajando en la oficina" />
+          </div>
+          <div class="seccion_descripcion__info scroll scroll_fino scroll_gris" aria-label="descripcion personal">
+            <h3 class="seccion_descripcion__titulo" id="mi_historia_titulo">
+              Un poco de mi historia
+            </h3>
+            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+              aria-describedby="mi_historia_titulo">
+              Descubrí la computadora a corta edad, mientras me encontraba cursando el 3er año de la escuela secundaria
+              (eso fué a mediados de la década del '80, mas precisamente año 1985), en esos años, comencé con un curso
+              privado (en las escuelas no existian las computadoras) de "Programación en Basic" usando una Commodore 64
+              conectada a un TV y con una diskettera externa.
+            </p>
+            <img src="./assets/images/profile/commodore-64-compie-40-anni-1662044250.png" alt="Commodore 64"
+              title="Equipo Commodore 64" width="100px" />
+            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+              aria-describedby="mi_historia_titulo">
+              Cursé mis estudios secundarios en la vieja Escuela Nacional de Comercio Nº2 "Gral. Manuel Obligado." ya
+              que había ingresado en esa institución con la idea de seguir mis estudios Universitarios en Ciencias
+              Económicas...
+            </p>
+            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+              aria-describedby="mi_historia_titulo">
+              Pero el haber tomado contacto con esa maravilla tecnológica hizo que cambiara mi idea a futuro y me
+              volcara a la informática.
+            </p>
+            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mi historia"
+              aria-describedby="mi_historia_titulo">
+              Y es así, que luego de graduarme de "Perito Mercantil" promoción 1987, ingresé a la <abbr
+                title="Universidad Tecnológica Nacional - Facultad Regional Resistencia">U.T.N. - F.R.R.</abbr> para
+              comenzar mis estudios en Ingeniería en Sistemas de Información.
+            <p>Pero en aquellos días, la carrera era muy demandante de tiempos y además todas las materias eran anuales,
+              no existía la promocion, y practicamente todas las materias de un año eran correlativas con las del
+              siguiente año, por lo que habia que hacer un gran esfuerzo por regularizar y aprobar cada materia para
+              poder avanzar.... </p>
+            <p>Asi llegue hasta terminar de cursar el 4to. año con un alto porcentaje de materias aprobadas (pero no las
+              suficientes) y debido a un fuerte cambio en el plan de estudios, tuve que reiniciar mis estudios
+              universitarios desde cero practicamente, pero ahora con algunas pocas materias cuatrimestrales y la
+              posibilidad de promocionar parte de los examennes finales de las materias.... </p>
+            <p>Así llegué nuevamente hasta el final del 4to. año de cursado con poco mas de la mitad de la carrera
+              aprobada...</p>
+            <p>Luego de 9 largos años de estar intentando avanzar en mi carrera, decidí abandonar mis estudios y seguir
+              con mi trabajo de enseñanza de cursos de computacion en los diversos institutos privados de aquellas
+              épocas</p>
+            <div class="logros">
+              <p>Los años pasaron, los trabajos privados cambiaban como los tiempos que vivíamos y cambié un poco mi
+                orientacion académica y me recibi, en un Terciario Provincial (CENT 51) de "<b>Tecnico Superior en
+                  Gestión Organizacional</b>". </p>
+
+
+              <p>Ya en esos años me encontraba trabajando en la Escuela de Formacion Profesional Nº7, y simultáneamente
+                conseguí mi segundo título terciario provincial, esta vez de "<b>Maestro de Formacion Profesional en
+                  Informática de Oficina</b>".</p>
+
+            </div>
+            <p>A partir de allí, algunos años mas tarde, conseguí un postítulo de "<b>Especialización Docente de Nivel
+                Superior en Educación y TIC</b> y sigo estudiando y perfeccionandome en mi especialidad e incorporando
+              nuevos conocimientos, capacidades y competencias a pesar de mis 54 años...</p>
+            <p>Ahora, incursionando en el area del Desarrollo Web, junto al Informatorio, y todo lo relacionado a
+              ello... y seguiré...</p>
+
+            </p>
+          </div>
+        </section>
+        <!-- explicacion: seguidamente tendremos una seccion muy similar a la anterior 
+            pero cambiaremos el orden de los elementos dejando la imagen al final -->
+        <section class="seccion_descripcion">
+          <div class="seccion_descripcion__info scroll scroll_fino scroll_gris" aria-label="descripcion personal">
+            <h3 class="seccion_descripcion__titulo" id="mis_hobbies_titulo">
+              Algunos de mis pasatiempos
+            </h3>
+            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mis hobbies"
+              aria-describedby="mis_hobbies_titulo">
+              <li>Escuchar Música, de variados estilos y géneros...</li><br>
+            </p>
+            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mis hobbies"
+              aria-describedby="mis_hobbies_titulo">
+              <li>Mirar películas y series, de todo tipo, pero fundamentalmente Docuseries, ciencia ficción, acción y
+                algún otro género....</li><br>
+            </p>
+            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mis hobbies"
+              aria-describedby="mis_hobbies_titulo">
+              <li>Instalarme en la pc e investigar sobre software y/o hardware.</li><br>
+            </p>
+            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mis hobbies"
+              aria-describedby="mis_hobbies_titulo">
+              <li>Leer noticias de economia, politica, salud, tecnología, etc....</li><br>
+            </p>
+            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mis hobbies"
+              aria-describedby="mis_hobbies_titulo">
+              <li>Pasear al aire libre.</li><br>
+            </p>
+            <p class="seccion_descripcion__parrafo" aria-label="Detalles de mis hobbies"
+              aria-describedby="mis_hobbies_titulo">
+              <li>Y ocasionalmente jugar al Paddle.</li><br>
+            </p>
+          </div>
+          <div class="seccion_descripcion__porta_retrato">
+            <img class="seccion_descripcion__imagen" src="./assets/images/profile/trabajo3.jpg"
+              alt="foto mientras me encontraba en una reunion de trabajo" title="selfie en una reunion" />
+          </div>
+        </section>
+      </div>
+      <a href="#" class="botonInicio">Ir al Inicio </a>
+    </article>
+    <!-- repaso article sobre mi y su estructura -->
+
+    <!-- explicacion: En la seccion que sigue agregaremos los proyectos en los que trabajaron,
+      no se preocupen si todavia no cuentan con ninguno, en el momento que comiencen a construirlos 
+      podran ir actualizando la informacion de esta seccion -->
+    <article class="articulo proyectos" id="proyectos">
+      <h2 class="articulo__titulo">Mis Conocimientos</h2>
+      <br>
+      <div class="contenedor_tarjetas_grid">
+        <article class="tarjeta" aria-label="presentacion de proyecto personal">
+          <img class="tarjeta__imagen" src="./assets/images/proyectos/windows.webp" alt="Evolucion historica de Windows"
+            title="Diversas versiones de Windows" />
+          <div class="tarjeta__contenido">
+            <h3 class="tarjeta__titulo" id="titulo_proyecto_1">Manejo S.O. Windows</h3>
+            <span class="tarjeta__divisor"></span>
+            <p class="tarjeta__parrafo scroll scroll_fino" aria-label="descripcion de proyecto personal"
+              aria-describedby="titulo_proyecto_1">
+              Manejo avanzado del los Sistemas Operativo MS. Windows 9x, XP, Me, 7, 8.x, 10.
+            </p>
+            <!-- <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a> -->
+          </div>
+        </article>
+        <!-- explicacion: pueden agregar tantas tarjetas como deseen, para ejemplificar agregaremos seis. 
+            Podemos hacerlo simplemente copiando y pegando. Yo en mi caso en algunas tarjetas agregare un pequeño cambio a los botones  -->
+        <article class="tarjeta" aria-label="presentacion de proyecto personal">
+          <img class="tarjeta__imagen" src="./assets/images/proyectos/offices.jpg"
+            alt="Logos de las aplicaciones Office" title="Aplicaciones de MS Office" />
+          <div class="tarjeta__contenido">
+            <h3 class="tarjeta__titulo" id="titulo_proyecto_2">MS Office</h3>
+            <span class="tarjeta__divisor"></span>
+            <p class="tarjeta__parrafo scroll scroll_fino scroll_gris" aria-label="descripcion de proyecto personal"
+              aria-describedby="titulo_proyecto_2">
+              Manejo avanzado de las diversas suites ofimaticas MS Office 95 a MS Office 2021.
+            </p>
+            <!-- <a href="#" class="boton" target="_blank">Ver proyecto</a> -->
+          </div>
+        </article>
+        <article class="tarjeta" aria-label="presentacion de proyecto personal">
+          <img class="tarjeta__imagen" src="./assets/images/proyectos/CorelDraw-10.jpg" alt="Suite CorelDRAW"
+            title="Suite CorelDRAW" />
+          <div class="tarjeta__contenido">
+            <h3 class="tarjeta__titulo" id="titulo_proyecto_3">Suite CorelDRAW</h3>
+            <span class="tarjeta__divisor"></span>
+            <p class="tarjeta__parrafo scroll scroll_fino" aria-label="descripcion de proyecto personal"
+              aria-describedby="titulo_proyecto_3">
+              Manejo intermedio de la aplicación CorelDRAW y CorelPhotoPaint.
+            </p>
+            <!-- <a href="#" class="boton boton_oscuro" target="_blank">Ver proyecto</a> -->
+          </div>
+        </article>
+        <article class="tarjeta" aria-label="presentacion de proyecto personal">
+          <img class="tarjeta__imagen" src="./assets/images/proyectos/Google-Docs-Sheets-Slides.jpg"
+            alt="Apps de Google Docs" title="Google Docs" />
+          <div class="tarjeta__contenido">
+            <h3 class="tarjeta__titulo" id="titulo_proyecto_4">Google Docs</h3>
+            <span class="tarjeta__divisor"></span>
+            <p class="tarjeta__parrafo scroll scroll_fino scroll_gris" aria-label="descripcion de proyecto personal"
+              aria-describedby="titulo_proyecto_4">
+              Manejo intermedio de las aplicaciones de Google Docs, Google Drive y Google Fotos.
+            </p>
+            <!-- <a href="#" class="boton" target="_blank">Ver proyecto</a> -->
+          </div>
+        </article>
+
+      </div>
+      <a href="#" class="botonInicio">Ir al Inicio </a>
+    </article>
+    
+    <!-- repaso del articulo proyectos -->
+  </main>
+  <!-- repaso de todo lo incluido en la etiqueta main -->
+
+  <!-- Por ultimo deben agregar la etiqueta footer. 
+      En esta aparecera nuestra informacion de contacto y 
+      también inluiremos enlaces de navegacion y derechos. -->
+  <footer class="pie_de_pagina" role="contentinfo">
+    <!-- explicacion: la primer columna sera para nuestras redes,
+        cabe aclarar que la estructura sera similar en todos los casos y solo habrá pequeños cambios -->
+    <div class="pie_de_pagina__columna">
+      <h4 class="pie_de_pagina__titulo_columna">Mis redes</h4>
+      <ul class="enlaces enlaces_redes">
+        <li class="enlaces__item">
+          <a class="enlaces__enlace enlaces__enlace_footer" href="https://github.com/Mario-1970" target="_blank"><img
+              class="enlaces__icono" src="./assets/images/logos/github-logo.png" alt="logo de github"
+              title="github" /></a>
+        </li>
+        <li class="enlaces__item">
+          <a class="enlaces__enlace enlaces__enlace_footer" href="https://www.instagram.com/mrfernandez.2015/"
+            target="_blank">
+            <img class="enlaces__icono" src="./assets/images/logos/ig-logo.png" alt="logo de instagram"
+              title="instagram" />
+          </a>
+        </li>
+        <li class="enlaces__item">
+          <a class="enlaces__enlace enlaces__enlace_footer" href="https://facebook.com/mario.reparacionpc"
+            target="_blank"><img class="enlaces__icono" src="./assets/images/logos/gratis-png-facebook-thumbnail.png"
+              alt="logo de Facebook" title="Facebook iconos creados por Pixel perfect - Flaticon" /></a>
+
+        </li>
+      </ul>
+    </div>
+    <!-- explicacion: la segunda columna sera para nuestros medios de contacto  -->
+    <div class="pie_de_pagina__columna">
+      <h4 class="pie_de_pagina__titulo_columna">Contactame</h4>
+      <ul class="enlaces enlaces_vertical">
+        <li class="enlaces__item">
+          <a class="enlaces__enlace enlaces__enlace_footer" href="mailto:mail@mail.com" target="_blank">E-Mail:
+            mario.efp7@gmail.com</a>
+        </li>
+      </ul>
+    </div>
+    <!-- explicacion: la ultima columna sera para los enlaces de navegacion -->
+    <div class="pie_de_pagina__columna" role="navigation">
+      <h4 class="pie_de_pagina__titulo_columna">Secciones</h4>
+      <ul class="enlaces enlaces_vertical">
+        <li class="enlaces__item">
+          <a class="enlaces__enlace enlaces__enlace_footer" href="#presentacion">Inicio</a>
+        </li>
+        <li class="enlaces__item">
+          <a class="enlaces__enlace enlaces__enlace_footer" href="#sobre-mi">Un poco sobre mi</a>
+        </li>
+        <li class="enlaces__item">
+          <a class="enlaces__enlace enlaces__enlace_footer" href="#proyectos">Mis Conocimientos</a>
+        </li>
+      </ul>
+    </div>
+    <!-- por ultimo los derechos de la pagina -->
+    <div class="pie_de_pagina__copyright">
+      <p>©️Copyright Mario Ramón Fernández - Junio 2024</p>
+    </div>
+  </footer>
+  <!-- repaso de los elementos en el footer -->
+</body>
+
+</html>
