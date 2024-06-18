@@ -162,6 +162,19 @@ body {
   gap: 2rem;
 }
 
+/* inicio agregado mio */
+.logros {
+  display: flex;
+  flex-direction:row;
+}
+.logros__imagen {
+  height: 120px;
+  margin: 5px;
+  border-radius: 15%;
+  box-shadow: 5px 5px 5px #d1d1d1;
+}
+/* fin agregado mio */
+
 /* seccion descripcion */
 .seccion_descripcion {
   position: relative;
